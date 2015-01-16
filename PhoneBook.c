@@ -76,6 +76,7 @@ menu();
 }
         void addrecord()
 {
+        //We add the record of contacts here
         system("cls");
         FILE *f;
         struct person p;
@@ -111,6 +112,7 @@ fclose(f);
 }
 void listrecord()
 {
+    //We can see the list of contacts
     struct person p;
     FILE *f;
 f=fopen("project","rb");
@@ -227,6 +229,7 @@ menu();
 
 void modifyrecord()
 {
+    //We can edit contact information
     int c;
     FILE *f;
     int flag=0;
